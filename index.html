@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Fetch Example</title>
+    <script defer src="./script.js" lang="ts"></script> <!-- This will be compiled from TypeScript -->
+</head>
+<body>
+    <div
+        style="display: flex; align-items: center; justify-content: center; height: 100vh; width: 100vw;"
+    >
+        <div
+            style="display: flex; flex-direction: column;"
+        >
+            <h1>API Data Fetching</h1>
+            <button id="fetchDataBtn">Fetch Data</button>
+            <div
+                id="dataContainer"
+                style="margin-top: 24px;"
+            >
+                <div
+                    style="display: flex; flex-wrap: nowrap; align-items: center;"
+                >  
+                    Flag: <div id="dataFlag" style="margin-left: 10px;"></div>
+                </div>
+                <div
+                    style="display: flex; flex-wrap: nowrap; align-items: center;"
+                >
+                    Country: <div id="dataCountry" style="margin-left: 10px;"></div>
+                </div>
+                <div
+                    style="display: flex; flex-wrap: nowrap; align-items: center;"
+                >
+                    Population: <div id="dataPopulation" style="margin-left: 10px;"></div>
+                </div>
+            </div>
+            <div id="errorContainer"></div>
+        </div>
+    </div>
+</body>
+</html>
