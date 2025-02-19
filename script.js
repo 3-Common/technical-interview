@@ -17,16 +17,14 @@ const fetchData = async () => {
     
     // ---------------------
     // Keep console log at the bottom of the function - DO NOT MODIFY CODE
-    console.log('Data fetching completed!')
+    console.log('Check 1')
 }
 
 
-const fetchDataWithTimeout = () => {
+const fetchDataHandler = () => {
     fetchData()
-    setTimeout(() => {
-        console.log('Timeout finished!')
-    }, 0)
+    console.log('Check 2')
 }
 
-// TODO: Attach the "fetchDataWithTimeout" function to button click
+// TODO: Attach the "fetchDataHandler" function to button click
 
