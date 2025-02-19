@@ -3,11 +3,11 @@
 ### Objective:
 
 The purpose of this assignment is to evaluate your ability to:
-  Clone and pull a repository into your local code base.
-  Access and manipulate DOM elements.
-  Make an API request and populate the DOM with fetched data.
-  Ensure that data fetching completes before subsequent console logs execute.
-  Implement proper error handling in case of failures.
+  - Clone and pull a repository into your local code base.
+  - Access and manipulate DOM elements.
+  - Make an API request and populate the DOM with fetched data.
+  - Ensure that data fetching completes before subsequent console logs execute.
+  - Implement proper error handling in case of failures.
 
 ### Instructions: 
 
