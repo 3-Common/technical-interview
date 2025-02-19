@@ -39,7 +39,4 @@ The purpose of this assignment is to evaluate your ability to:
   - Open the browser console and verify that console.log('Check 2') only executes after the data is displayed AKA console.log('Check 1').
   - Simulate an API failure (e.g., modify the URL temporarily) and confirm that the error handling works as expected.
 
-### Submission Requirements
-Push your completed code to a new branch called "feature-branch-1".
-
 Good luck!
