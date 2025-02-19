@@ -15,7 +15,7 @@ The purpose of this assignment is to evaluate your ability to:
   - Clone the repository into your local environment.
   - Load the HTML file into a browser to start
 
-### 2. Modify script.ts to Implement Data Fetching
+### 2. Modify script.js to Implement Data Fetching
   - Retrieve the necessary HTML elements using document.getElementById.
   - Fetch data from the API endpoint: https://restcountries.com/v3.1/name/canada.
   - Ensure the API response is parsed and the following data is populated in the HTML:
