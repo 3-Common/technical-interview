@@ -3,7 +3,7 @@
 ### Objective:
 
 The purpose of this assignment is to evaluate your ability to:
-  - Clone and pull a repository into your local code base.
+  - Clone a repository into your local code base.
   - Access and manipulate DOM elements.
   - Make an API request and populate the DOM with fetched data.
   - Ensure that data fetching completes before subsequent console logs execute.
@@ -12,9 +12,8 @@ The purpose of this assignment is to evaluate your ability to:
 ### Instructions: 
 
 ### 1. Clone the Repository
-  - You will be provided with a Git repository URL.
   - Clone the repository into your local environment.
-  - Pull the latest changes to ensure your code is up to date.
+  - Load the HTML file into a browser to start
 
 ### 2. Modify script.ts to Implement Data Fetching
   - Retrieve the necessary HTML elements using document.getElementById.
@@ -23,27 +22,24 @@ The purpose of this assignment is to evaluate your ability to:
     - Flag: Display the country flag.
     - Country Name: Display the official name of the country.
     - Population: Display the total population.
-  - Ensure the fetchDataWithTimeout function does not execute console.log('Check 2') until the data is fully fetched and rendered.
+  - Ensure the fetchDataHandler function does not execute console.log('Check 2') until the data is fully fetched and rendered.
+
+### 3. Attach Event Listener to Button
+  - Ensure that clicking the "Fetch Data" button triggers the fetchDataWithTimeout function.
+
+### 4. Testing & Validation
   - Implement proper error handling:
     - Display an error message in #errorContainer if the request fails.
     - Hide the data container when an error occurs.
     - Log error details in the console.
 
-### 3. Attach Event Listener to Button
-  - Ensure that clicking the "Fetch Data" button triggers the fetchDataWithTimeout function.
-
 ### 5. Testing & Validation
   - Run the project and click the "Fetch Data" button.
   - Ensure that the API data is correctly displayed.
-  - Open the browser console and verify that console.log('Check 2') only executes after the data is displayed.
+  - Open the browser console and verify that console.log('Check 2') only executes after the data is displayed AKA console.log('Check 1').
   - Simulate an API failure (e.g., modify the URL temporarily) and confirm that the error handling works as expected.
 
 ### Submission Requirements
-Push your completed code to your assigned repository.
-Ensure all code follows best practices and is well-structured.
-Submit the repository link for review.
-
-
-Bonus: If you want to challenge yourself, modify the UI to allow users to input a country name dynamically and fetch data accordingly.
+Push your completed code to a new branch called "feature-branch-1".
 
 Good luck!
