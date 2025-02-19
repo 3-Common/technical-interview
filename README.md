@@ -25,7 +25,7 @@ The purpose of this assignment is to evaluate your ability to:
   - Ensure the fetchDataHandler function does not execute console.log('Check 2') until the data is fully fetched and rendered.
 
 ### 3. Attach Event Listener to Button
-  - Ensure that clicking the "Fetch Data" button triggers the fetchDataWithTimeout function.
+  - Ensure that clicking the "Fetch Data" button triggers the fetchDataHandler function.
 
 ### 4. Testing & Validation
   - Implement proper error handling:
